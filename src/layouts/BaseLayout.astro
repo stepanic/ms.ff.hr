@@ -1,0 +1,14 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+---
+
+<html lang="en" class="dark">
+  <head>
+    <BaseHead />
+  </head>
+
+  <body class="dark:bg-primary bg-zinc-200 ">
+    <img src="images/background_gradient_top.svg" alt="" class="absolute inset-0 -z-10 w-full" />
+    <slot />
+  </body>
+</html>
